@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -19,8 +19,8 @@
 </head>
   <body>
       
-    <button class="open-button" onclick="openForm()">
- <i class="fa fa-phone" aria-hidden="true"></i>
+    <button class="open-button"data-aos="fade-up" onclick="openForm()">
+        <i class="fa fa-envelope" aria-hidden="true" style="font-size: 20px;"></i>
     </button>
 
 <div class="chat-popup" id="myForm">
@@ -44,18 +44,18 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
         </ol>
-        <div class="carousel-inner"style="height: 560px;">
+        <div class="carousel-inner"style="height: 600px;">
           <div class="carousel-item active">
-            <img src="img/slider/s1.jpg" class="d-block w-100" alt="..."style="height: 560px;">
+            <img src="img/slider/s1.jpg" class="d-block w-100" alt="..."style="height: 600px;">
           </div>
           <div class="carousel-item">
-            <img src="img/slider/s2.jpg" class="d-block w-100" alt="..."style="height: 560px;">
+            <img src="img/slider/s2.jpg" class="d-block w-100" alt="..."style="height: 600px;">
           </div>
           <div class="carousel-item">
-            <img src="img/slider/s3.jpg" class="d-block w-100" alt="..."style="height: 560px;">
+            <img src="img/slider/s3.jpg" class="d-block w-100" alt="..."style="height: 600px;">
           </div>
           <div class="carousel-item">
-            <img src="img/slider/s4.jpg" class="d-block w-100" alt="..."style="height: 560px;">
+            <img src="img/slider/s4.jpg" class="d-block w-100" alt="..."style="height: 600px;">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -69,7 +69,7 @@
       </div>
     <!-- End  -->
       </div><br>
-   <div class="container"> <h1 style="text-align: center;">WELCOME TO THE DELTA COOLING TECHNOLOGY</h1></div><br>
+   <div class="container"> <h1 style="text-align: center;"    data-aos="fade-up"data-aos-easing="ease-in-out"data-aos-offset="100">WELCOME TO THE DELTA COOLING TECHNOLOGY</h1></div><br>
     <div class="d-flex justify-content-around">
         <div class="row">
             <!-- <div class="col-12 col-md-1"> </div> -->
@@ -89,7 +89,7 @@
     
    <div class="container">
        
-    <br><h1 style="text-align: center;">APPLICATION</h1>
+    <br><h1 style="text-align: center;" data-aos="fade-up"data-aos-easing="ease-in-out"data-aos-offset="100">APPLICATION</h1>
     <br>
     <div class="row">
         <div class="col-12 col-md-4" style="box-shadow: 0px 0px 5px 0px rgba(15, 58, 138, 0.63);">
@@ -111,7 +111,7 @@
         </div>
 </div>
     </div>
-    <br><h1 style="text-align: center;">OUR GLOBAL PARTNERS</h1>
+    <br><h1 style="text-align: center;" data-aos="fade-up"data-aos-easing="ease-in-out"data-aos-offset="100">OUR GLOBAL PARTNERS</h1>
     <div class="row">
         <div class="col-12 col-md-4">
             <div class="img-hover-zoom--blur" style="box-shadow: 0px 0px 8px 0px navy;">
@@ -241,10 +241,8 @@
    <br> <br><footer>
     <div class="footer"  style="background-color: rgb(13, 56, 97);">
    <div class="container">
-    <br><h1 style="text-align: center;">CONTACT WITH US</h1>
-    <div class="map-responsive">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7239.987671542367!2d67.06549967243328!3d24.864060120594523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e9f6423960d%3A0x95c1b29bacc7619!2sBlock-6%20Block%206%20PECHS%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1639783483787!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-         </div>
+    <br><h1 style="text-align: center;" data-aos="fade-up"data-aos-easing="ease-in-out"data-aos-offset="100">CONTACT WITH US</h1>
+  
          <br><br>
     <div class="container-fluid">
         <div class="row">
@@ -315,14 +313,27 @@
         </div>
        
     </div>
+    <br> <br>
+    <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7239.987671542367!2d67.06549967243328!3d24.864060120594523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e9f6423960d%3A0x95c1b29bacc7619!2sBlock-6%20Block%206%20PECHS%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1639783483787!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+   
 </div>
- <br> 
  <!-- <div class="arr" style="background-color: rgb(0, 30, 68);">
         <h6 style="text-align: center;color: white; padding: 10px;">Designed By Plug Orange</h6>
 </div> -->
     
     
-    
+    <br>
+</div> <div class="container-fluid" style="background-color: rgb(212, 212, 212); padding: 2%;">
+    <p style="text-align: center;">MAILING ADDRESS: 38-L, BLOCK 6, PECHS, KARACHI </p>
+    <div class="d-flex justify-content-center">
+    <div class="row">
+        <div class="col-12 col-md-6">  <p>Privacy</p> </div>
+        <div class="col-12 col-md-6">  <p>Policy</p> </div>
+    </div>
+    </div>
+    <p style="text-align: center;">Delta Cooling Technology All Rights Reserved. </p>
 </div>
 </footer>
     <!-- <div class="social-menu " >
@@ -338,6 +349,10 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
