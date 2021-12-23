@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+/* Slider */
+
+/* Slider end  */
+h1 {
+  font-family: "Courgette", cursive;
+  font-weight: 900;
+  padding: 2%;
+  box-shadow: 0px 0px 10px 0px rgb(13, 56, 97);
+  background-color: #fff;
+}
+h1:hover {
+  cursor: pointer;
+  background-color: rgb(13, 56, 97);
+  color: white;
+}
+/* logoslider */
+body {
+  background: aliceblue;
+}
+.section-padding {
+  padding: 60px 0;
+}
+.brand-carousel {
+  background: aliceblue;
+  margin-top: 15%;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 4%;
+}
+.owl-dot {
+  display: inline-block;
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #878787 !important;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.owl-dot.active {
+  background-color: #000 !important;
+}
+/* [1] The container */
+.img-hover-zoom--blur {
+  height: 210px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom--blur img {
+  transition: transform 0.5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom--blur:hover img {
+  transform: scale(1.1);
+}
+
+/* Blur-zoom Container */
+.img-hover-zoom--blur img {
+  transform: scale(1);
+}
+
+/* The Transformation */
+.img-hover-zoom--blur:hover img {
+  transition: transform 1s, filter 2s ease-in-out;
+
+  cursor: pointer;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Map Styling */
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 50%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+/* Social Menu */
+.social-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.social-menu ul li {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-menu ul li .fab {
+  font-size: 30px;
+  line-height: 60px;
+  transition: 0.3s;
+  color: #000;
+}
+
+.social-menu ul li .fab:hover {
+  color: #fff;
+}
+
+.social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  text-align: center;
+  transition: 0.6s;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+.social-menu ul li a:hover {
+  transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover {
+  background-color: rgba(22, 133, 0, 0.829);
+}
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #e4405f;
+}
+.social-menu ul li:nth-child(3) a:hover {
+  background-color: #0077b5;
+}
+.social-menu ul li:nth-child(4) a:hover {
+  background-color: #000;
+}
+
+/* ChatBot */
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: rgb(0, 221, 18);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  z-index: 99;
+  border-radius: 20px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  z-index: 99;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #001457;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+  color: white;
+  opacity: 1;
+}
+
+/* Scroll */
+.test {
+  background-color: yellow;
+}
+
+/* contact  */
+.background {
+  margin-top: 30px;
+  background: url(img/Aplication/ice-businuess.webp) repeat;
+  box-shadow: 0px 0px 2px 0px blue;
+  border-radius: 50px;
+}
+.transbox {
+  background-color: #ffffff;
+  border: 1px solid black;
+  padding: 30px;
+  opacity: 0.8;
+  border-radius: 50px;
+}
+
+.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
